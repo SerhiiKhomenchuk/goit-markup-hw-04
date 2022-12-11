@@ -13,13 +13,22 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!--<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -43,12 +52,18 @@
         </nav>
         <ul class="list header-adress">
           <li>
-            <a class="top-adress" lang="en" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="top-adress" lang="en" href="mailto:info@devstudio.com">
+              <svg class="icon mail" width="16" height="12">
+                <use href="./images/envelope.svg"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li>
             <a class="top-adress" href="tel:+380961111111">
+              <svg class="icon phone" width="10" height="16">
+                <use href="./images/smartphone.svg"></use>
+              </svg>
               +38 096 111 11 11</a
             >
           </li>
@@ -68,34 +83,52 @@
           <h2 class="visually-hidden">Особливості нашої роботи</h2>
           <ul class="list features-list">
             <li>
-              <svg width="70" height="70">
-                <use href="/images/icons.svg#antenna"></use>
-              </svg>
-              <h3 class="features-title">Увага до деталей</h3>
-              <p class="lorem">
-                Ідейні міркування, і навіть початок повсякденної роботи з
-                формування позиції.
-              </p>
+              <div class="feuture-card">
+                <svg class="feuture-card-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+                <h3 class="features-title">Увага до деталей</h3>
+                <p class="lorem">
+                  Ідейні міркування, і навіть початок повсякденної роботи з
+                  формування позиції.
+                </p>
+              </div>
             </li>
             <li>
-              <h3 class="features-title">Пунктуальність</h3>
-              <p class="lorem">
-                Завдання організації, особливо рамки і місце навчання кадрів
-                тягне у себе.
-              </p>
+              <div class="feuture-card">
+                <svg class="feuture-card-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+                <h3 class="features-title">Пунктуальність</h3>
+                <p class="lorem">
+                  Завдання організації, особливо рамки і місце навчання кадрів
+                  тягне у себе.
+                </p>
+              </div>
             </li>
             <li>
-              <h3 class="features-title">Планування</h3>
-              <p class="lorem">
-                Так само консультація з широким активом значною мірою зумовлює.
-              </p>
+              <div class="feuture-card">
+                <svg class="feuture-card-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+                <h3 class="features-title">Планування</h3>
+                <p class="lorem">
+                  Так само консультація з широким активом значною мірою
+                  зумовлює.
+                </p>
+              </div>
             </li>
             <li>
-              <h3 class="features-title">Сучасні технології</h3>
-              <p class="lorem">
-                Значимість цих проблем настільки очевидна, що реалізація
-                планових завдань.
-              </p>
+              <div class="feuture-card">
+                <svg class="feuture-card-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+                <h3 class="features-title">Сучасні технології</h3>
+                <p class="lorem">
+                  Значимість цих проблем настільки очевидна, що реалізація
+                  планових завдань.
+                </p>
+              </div>
             </li>
           </ul>
         </div>

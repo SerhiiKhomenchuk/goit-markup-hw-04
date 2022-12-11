@@ -115,6 +115,7 @@ body {
     display: flex;
     align-items: center;
     gap: 30px;
+    fill: #2196F3;
 }
 .header-nav {
     align-items: center;
@@ -143,15 +144,12 @@ body {
     color:var(--color-textbase)
 }
 .icon {
-    display: flex;
+    
     margin-right: 10px;
 }
 .mail {
     width: 16px;
     height: 12px;
-}
-.li {
-    display: flex;
 }
 
     
@@ -229,7 +227,7 @@ body {
 
 .features-list {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
    
    
    }
@@ -249,7 +247,18 @@ body {
         line-height: 1.72;
         letter-spacing: 0.03em;
 }
+/*icons on features card*/
 
+.feuture-card {
+    display: block;
+}
+.feuture-card-icon {
+    display: block;
+  
+    fill: var(--color-textbase);
+    
+    margin: auto 0px 30px 0px;
+}
 .what-we-do-title{
     font-weight: 700;
     font-size: 36px;
