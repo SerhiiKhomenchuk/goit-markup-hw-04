@@ -435,13 +435,13 @@ fill: var(--color-background);
 }
 .footer-block {
     display: flex;
-    
+    align-items: baseline;
+        
 }
 .footer-social {
     display: flex;
     flex-direction: column;
-    
-    margin: 12px auto 100px 70px;
+    margin-left: 70px;  
     
     
 }
